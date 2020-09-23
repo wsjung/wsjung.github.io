@@ -10,6 +10,7 @@ redirect_from:
 {% include base_path %}
 
 Link
+======
 [download my CV here](../files/wjung-cv.pdf)
 
 Education
