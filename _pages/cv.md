@@ -11,49 +11,48 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Computer Science, Washington University of St. Louis, (1st year)
+* B.S. in Mathematics, Computer Science, University of Puget Sound, 2020
 
+Research experience
+======
+* Summer 2019: Student Researcher
+  * University of Puget Sound
+  * Duties included: Researching and implementing a GAN model to generate artificial mouse vocalizations from raw recordings. 
+  * Supervisor: Professor Adam A. Smith 
+ 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* Summer 2020: DT Intern 
+  * CJ Olivenetworks 
+  * Duties included: Analyze viability of methods via small-batch model implementation and minimum viable product testing.
+ 
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Java 
+* Python
+* C
+* MATLAB
+* TensorFlow/Keras
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+#Publications
+#======
+#  <ul>{% for post in site.publications %}
+#    {% include archive-single-cv.html %}
+#  {% endfor %}</ul>
+#  
+#Talks
+#======
+#  <ul>{% for post in site.talks %}
+#    {% include archive-single-talk-cv.html %}
+#  {% endfor %}</ul>
+#  
+#Teaching
+#======
+#  <ul>{% for post in site.teaching %}
+#    {% include archive-single-cv.html %}
+#  {% endfor %}</ul>
+#  
+#Service and leadership
+#======
+#* Currently signed in to 43 different slack teams
