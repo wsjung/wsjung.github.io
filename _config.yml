@@ -201,6 +201,11 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _pages/teaching.md
+  - _pages/projects.md
+  - _pages/profiles.md
+  - _pages/dropdown.md
+
 keep_files:
   - CNAME
   - .nojekyll
@@ -275,7 +280,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Jung]
-  first_name: [Wooseok, W.]
+  first_name: [Wooseok J, W.]
 
   style: apa
   locale: en

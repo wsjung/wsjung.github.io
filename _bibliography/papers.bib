@@ -1,115 +1,49 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{10.1093/g3journal/jkac144,
+    author = {Kang, Yiming and Jung, Wooseok J and Brent, Michael R},
+    title = {Predicting which genes will respond to transcription factor perturbations},
+    journal = {G3 Genes|Genomes|Genetics},
+    volume = {12},
+    number = {8},
+    pages = {jkac144},
+    year = {2022},
+    month = {06},
+    abstract = {The ability to predict which genes will respond to the perturbation of a transcription factor serves as a benchmark for our systems-level understanding of transcriptional regulatory networks. In previous work, machine learning models have been trained to predict static gene expression levels in a biological sample by using data from the same or similar samples, including data on their transcription factor binding locations, histone marks, or DNA sequence. We report on a different challenge—training machine learning models to predict which genes will respond to the perturbation of a transcription factor without using any data from the perturbed cells. We find that existing transcription factor location data (ChIP-seq) from human cells have very little detectable utility for predicting which genes will respond to perturbation of a transcription factor. Features of genes, including their preperturbation expression level and expression variation, are very useful for predicting responses to perturbation of any transcription factor. This shows that some genes are poised to respond to transcription factor perturbations and others are resistant, shedding light on why it has been so difficult to predict responses from binding locations. Certain histone marks, including H3K4me1 and H3K4me3, have some predictive power when located downstream of the transcription start site. However, the predictive power of histone marks is much less than that of gene expression level and expression variation. Sequence-based or epigenetic properties of genes strongly influence their tendency to respond to direct transcription factor perturbations, partially explaining the oft-noted difficulty of predicting responsiveness from transcription factor binding location data. These molecular features are largely reflected in and summarized by the gene’s expression level and expression variation. Code is available at https://github.com/BrentLab/TFPertRespExplainer.},
+    issn = {2160-1836},
+    doi = {10.1093/g3journal/jkac144},
+    url = {https://doi.org/10.1093/g3journal/jkac144},
+    eprint = {https://academic.oup.com/g3journal/article-pdf/12/8/jkac144/45183853/jkac144.pdf},
+    altmetric={129365811},
+    dimensions={true},
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
+@article{acharya2024methodology,
+  title={A methodology for gene level omics-WAS integration identifies genes influencing traits associated with cardiovascular risks: the Long Life Family Study},
+  author={Acharya, Sandeep and Liao, Shu and Jung, Wooseok J and Kang, Yu S and Moghaddam, Vaha Akbary and Feitosa, Mary F and Wojczynski, Mary K and Lin, Shiow and Anema, Jason A and Schwander, Karen and others},
+  journal={Human genetics},
+  volume={143},
+  number={9},
+  pages={1241--1252},
+  year={2024},
+  publisher={Springer},
+  abstract={The Long Life Family Study (LLFS) enrolled 4953 participants in 539 pedigrees displaying exceptional longevity. To identify genetic mechanisms that affect cardiovascular risks in the LLFS population, we developed a multi-omics integration pipeline and applied it to 11 traits associated with cardiovascular risks. Using our pipeline, we aggregated gene-level statistics from rare-variant analysis, GWAS, and gene expression-trait association by Correlated Meta-Analysis (CMA). Across all traits, CMA identified 64 significant genes after Bonferroni correction (p ≤ 2.8 × 10–7), 29 of which replicated in the Framingham Heart Study (FHS) cohort. Notably, 20 of the 29 replicated genes do not have a previously known trait-associated variant in the GWAS Catalog within 50 kb. Thirteen modules in Protein–Protein Interaction (PPI) networks are significantly enriched in genes with low meta-analysis p-values for at least one trait, three of which are replicated in the FHS cohort. The functional annotation of genes in these modules showed a significant over-representation of trait-related biological processes including sterol transport, protein-lipid complex remodeling, and immune response regulation. Among major findings, our results suggest a role of triglyceride-associated and mast-cell functional genes FCER1A, MS4A2, GATA2, HDC, and HRH4 in atherosclerosis risks. Our findings also suggest that lower expression of ATG2A, a gene we found to be associated with BMI, may be both a cause and consequence of obesity. Finally, our results suggest that ENPP3 may play an intermediary role in triglyceride-induced inflammation. Our pipeline is freely available and implemented in the Nextflow workflow language, making it easily runnable on any compute platform (https://nf-co.re/omicsgenetraitassociation).},
+  doi = {10.1007/s00439-024-02701-1},
+  url = {https://doi.org/10.1007/s00439-024-02701-1},
+  altmetric={167343201},
   dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{akbary2025construction,
+  title={Construction of Multi-Modal Transcriptome-Small Molecule Interaction Networks from High-Throughput Measurements to Study Human Complex Traits},
+  author={Akbary Moghaddam, Vaha and Acharya, Sandeep and Schwaiger-Haber, Michaela and Liao, Shu and Jung, Wooseok J and Thyagarajan, Bharat and Shriver, Leah P and Daw, E Warwick and Saccone, Nancy L and An, Ping and others},
+  journal={bioRxiv},
+  pages={2025--01},
+  year={2025},
+  publisher={Cold Spring Harbor Laboratory},
+  abstract={Small molecules (SMs) are integral to biological processes, influencing metabolism, homeostasis, and regulatory networks. Despite their importance, a significant knowledge gap exists regarding their downstream effects on biological pathways and gene expression, largely due to differences in scale, variability, and noise between untargeted metabolomics and sequencing-based technologies. To address these challenges, we developed a multi-omics framework comprising a machine learning-based protocol for data processing, a semi-supervised network inference approach, and network-guided analysis of complex traits. The ML protocol harmonized metabolomic, lipidomic, and transcriptomic data through batch correction, principal component analysis, and regression-based adjustments, enabling unbiased and effective integration. Building on this, we proposed a semi-supervised method to construct transcriptome-SM interaction networks (TSI-Nets) by selectively integrating SM profiles into gene-level networks using a meta-analytic approach that accounts for scale differences and missing data across omics layers. Benchmarking against three conventional unsupervised methods demonstrated the superiority of our approach in generating diverse, biologically relevant, and robust networks. While single-omics analyses identified 18 significant genes and 3 significant SMs associated with insulin sensitivity (IS), network-guided analysis revealed novel connections between these markers. The top-ranked module highlighted a cross-talk between fiber-degrading gut microbiota and immune regulatory pathways, inferred by the interaction of the protective SM, N-acetylglycine (NAG), with immune genes (FCER1A, HDC, MS4A2, and CPA3), linked to improved IS and reduced obesity and inflammation. Together, this framework offers a robust and scalable solution for multi-modal network inference and analysis, advancing SM pathway discovery and their implications for human health. Leveraging data from a population of thousands of individuals with extended longevity, the inferred TSI-Nets demonstrate generalizability across diverse conditions and complex traits. These networks are publicly available as a resource for the research community.},
+  doi = {10.1101/2025.01.22.634403},
+  url = {https://doi.org/10.1101/2025.01.22.634403},
+  altmetric={173419390},
+  dimensions={true}
 }
