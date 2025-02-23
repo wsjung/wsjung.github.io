@@ -43,6 +43,13 @@
   ],
   "publications": [
     {
+      "name": "FISHNET: A Network-based Tool for Analyzing Gene-level P-values to Identify Significant Genes Missed by Standard Methods",
+      "publisher": "bioRxiv",
+      "releaseDate": "2025-02-02",
+      "url": "https://doi.org/10.1101/2025.01.29.635546",
+      "summary": "FISHNET uses prior biological knowledge, represented as gene interaction networks and gene function annotations, to identify genes that do not meet the genome-wide significance threshold but replicate nonetheless"
+    },
+    {
       "name": "A methodology for gene level omics-WAS integration identifies genes influencing traits associated with cardiovascular risks: the Long Life Family Study",
       "publisher": "Human Genetics",
       "releaseDate": "2024-09-14",
