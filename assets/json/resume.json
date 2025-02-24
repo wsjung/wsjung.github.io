@@ -2,23 +2,17 @@
   "basics": {
     "name": "Woo Seok Jung",
     "label": "PhD Candidate",
-    "image": "",
-    "email": "jungw@wustl.edu",
+    "image": "prof_pic.jpeg",
+    "email": "wooseokjung0826@gmail.com",
     "phone": "(562) 760-8825",
-    "url": "https://wsjung.github.io/",
+    "url": "https://jungwooseok.com",
     "summary": "A Korean-born American PhD candidate in the Brent lab at WashU",
     "location": {
       "city": "St. Louis",
       "countryCode": "US",
       "region": "Missouri"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "profiles": []
   },
   "education": [
     {
@@ -64,10 +58,30 @@
       "summary": "Prediction of gene response to transcription factor perturbations modeling TF perturbation experiments using TF ChIP-seq data and epigenetic signals using XGBoost."
     }
   ],
+  "projects": [
+    {
+      "name": "FISHNET",
+      "url": "https://brentlab.github.io/fishnet/",
+      "startDate": "2025",
+      "summary": "This software pipelines the Nextflow, R, and python code for FISHNET, available for HPC systems using Docker or Singularity containers."
+    },
+    {
+      "name": "nf-core/omicsgenetraitassociation",
+      "url": "https://nf-co.re/omicsgenetraitassociation/dev/",
+      "startDate": "2024",
+      "summary": "An open-source Nextflow pipeline for the multi-omic integration of GWAS, TWAS, and RVA available on nf-core."
+    },
+    {
+      "name": "corrmeta",
+      "url": "CRAN.R-project.org/package=corrmeta",
+      "startDate": "2023",
+      "summary": "This R package implements correlated meta-analysis, a method which accounts for correlated samples in meta-analyses. Available on CRAN."
+    }
+  ],
   "awards": [
     {
       "title": "Genome Analysis Traning Progarm (GATP)",
-      "date": "2022-2025",
+      "startdate": "2022-2025",
       "awarder": "National Human Genome Research Institute (NHGRI)",
       "url": "https://www.genome.gov/careers-training/NHGRI-Funding-Opportunities-Training-Career-Development/T32-FAQ",
       "summary": "The NHGRI T32 grant, also known as a Ruth L. Kirschstein National Research Service Award (NRSA) Institutional Research Training Grant, supports predoctoral trainees to strenghten their research experiences in genomics."
