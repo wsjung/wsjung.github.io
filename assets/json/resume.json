@@ -6,7 +6,7 @@
     "email": "wooseokjung0826@gmail.com",
     "phone": "(562) 760-8825",
     "url": "https://jungwooseok.com",
-    "summary": "A Korean-born American PhD candidate in the Brent lab at WashU",
+    "summary": "A Korean American PhD candidate in the Brent Lab at WashU",
     "location": {
       "city": "St. Louis",
       "countryCode": "US",
@@ -42,6 +42,13 @@
       "releaseDate": "2025-02-02",
       "url": "https://doi.org/10.1101/2025.01.29.635546",
       "summary": "FISHNET uses prior biological knowledge, represented as gene interaction networks and gene function annotations, to identify genes that do not meet the genome-wide significance threshold but replicate nonetheless"
+    },
+    {
+      "name": "Construction of Multi-Modal Transcriptome-Small Molecule Interaction Networks from High-Throughput Measurements to Study Human Complex Traits",
+      "publisher": "bioRxiv",
+      "releaseDate": "2025-01-23",
+      "url": "https://doi.org/10.1101/2025.01.22.634403",
+      "summary": "This study introduces a multi-omics framework that integrates metabolomic, lipidomic, and transcriptomic data using machine learning and semi-supervised network inference to model small molecule–gene interactions. The approach outperforms existing methods in identifying biologically meaningful networks and reveals novel insights into insulin sensitivity, including links between gut microbiota metabolites and immune pathways. The resulting networks, validated in a large, long-lived human cohort, are made publicly available to support further research."
     },
     {
       "name": "A methodology for gene level omics-WAS integration identifies genes influencing traits associated with cardiovascular risks: the Long Life Family Study",
@@ -81,7 +88,7 @@
   "awards": [
     {
       "title": "Genome Analysis Traning Progarm (GATP)",
-      "startdate": "2022-2025",
+      "date": "2022-2025",
       "awarder": "National Human Genome Research Institute (NHGRI)",
       "url": "https://www.genome.gov/careers-training/NHGRI-Funding-Opportunities-Training-Career-Development/T32-FAQ",
       "summary": "The NHGRI T32 grant, also known as a Ruth L. Kirschstein National Research Service Award (NRSA) Institutional Research Training Grant, supports predoctoral trainees to strenghten their research experiences in genomics."
@@ -140,7 +147,7 @@
         "Statistical modeling",
         "Multi-omics integration",
         "High-throughput sequencing (NGS)",
-        "HPC (SLURM,Grid Engine)"
+        "HPC (SLURM, Grid Engine)"
       ]
     }
   ],
