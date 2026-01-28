@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: wooseokjung_CV.pdf # you can also use external links here
+cv_pdf: WooSeok_Jung_CV.pdf # you can also use external links here
 toc:
   sidebar: left
 ---

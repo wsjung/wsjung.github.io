@@ -7,7 +7,7 @@ first_name: Woo Seok
 middle_name:
 last_name: Jung
 contact_note: >
-  The best way to reach me is by email wooseokjung0826[at]gmail.com
+  The best way to reach me is by email wooseok.j.jung[at]gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website for Woo Seok Jung
 footer_text: >
@@ -198,6 +198,7 @@ exclude:
   - _pages/projects.md
   - _pages/profiles.md
   - _pages/dropdown.md
+  - _pages/repositories.md
 
 keep_files:
   - CNAME
